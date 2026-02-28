@@ -128,6 +128,15 @@ fun BODDashboard(
         
         Spacer(modifier = Modifier.height(16.dp))
         
+        // Executive Analytics Dashboard - Phase 25
+        ExecutiveAnalyticsSection(
+            statisticsState = statisticsState,
+            currencyFormatter = currencyFormatter,
+            onAnalyticsClick = onAnalyticsClick
+        )
+        
+        Spacer(modifier = Modifier.height(16.dp))
+        
         // Critical Quorums
         Text(
             text = "Critical Quorums",
