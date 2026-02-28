@@ -1,0 +1,336 @@
+<resources>
+    <!-- App Name -->
+    <string name="app_name">KPRFlow Enterprise</string>
+    
+    <!-- Common -->
+    <string name="ok">OK</string>
+    <string name="cancel">Batal</string>
+    <string name="save">Simpan</string>
+    <string name="delete">Hapus</string>
+    <string name="edit">Edit</string>
+    <string name="add">Tambah</string>
+    <string name="search">Cari</string>
+    <string name="loading">Memuat...</string>
+    <string name="error">Terjadi kesalahan</string>
+    <string name="retry">Coba Lagi</string>
+    <string name="confirm">Konfirmasi</string>
+    <string name="yes">Ya</string>
+    <string name="no">Tidak</string>
+    
+    <!-- Authentication -->
+    <string name="login">Masuk</string>
+    <string name="logout">Keluar</string>
+    <string name="email">Email</string>
+    <string name="password">Kata Sandi</string>
+    <string name="forgot_password">Lupa Kata Sandi?</string>
+    <string name="sign_up">Daftar</string>
+    <string name="full_name">Nama Lengkap</string>
+    <string name="phone_number">Nomor Telepon</string>
+    <string name="nik">NIK</string>
+    <string name="marital_status">Status Pernikahan</string>
+    <string name="single">Belum Menikah</string>
+    <string name="married">Menikah</string>
+    <string name="divorced">Cerai</string>
+    
+    <!-- Dashboard -->
+    <string name="dashboard">Dashboard</string>
+    <string name="customer_dashboard">Dashboard Pelanggan</string>
+    <string name="marketing_dashboard">Dashboard Marketing</string>
+    <string name="legal_dashboard">Dashboard Legal</string>
+    <string name="finance_dashboard">Dashboard Keuangan</string>
+    <string name="bod_dashboard">Dashboard Direksi</string>
+    
+    <!-- KPR Application -->
+    <string name="kpr_application">Aplikasi KPR</string>
+    <string name="my_applications">Aplikasi Saya</string>
+    <string name="new_application">Aplikasi Baru</string>
+    <string name="application_status">Status Aplikasi</string>
+    <string name="application_details">Detail Aplikasi</string>
+    
+    <!-- KPR Status -->
+    <string name="status_lead">Lead</string>
+    <string name="status_document_collection">Pengumpulan Dokumen</string>
+    <string name="status_bank_processing">Proses Bank</string>
+    <string name="status_credit_approved">Kredit Disetujui</string>
+    <string name="status_sp3k_issued">SP3K Terbit</string>
+    <string name="status_pra_akad">Pra Akad</string>
+    <string name="status_akad_uncashed">Akad Belum Cair</string>
+    <string name="status_funds_disbursed">Dana Cair</string>
+    <string name="status_bast_ready">BAST Siap</string>
+    <string name="status_bast_completed">BAST Selesai</string>
+    <string name="status_cancelled">Dibatalkan</string>
+    
+    <!-- Documents -->
+    <string name="documents">Dokumen</string>
+    <string name="upload_document">Unggah Dokumen</string>
+    <string name="required_documents">Dokumen yang Diperlukan</string>
+    <string name="document_verification">Verifikasi Dokumen</string>
+    <string name="document_approved">Dokumen Disetujui</string>
+    <string name="document_rejected">Dokumen Ditolak</string>
+    <string name="document_pending">Dokumen Pending</string>
+    
+    <!-- Document Types -->
+    <string name="doc_ktp">KTP</string>
+    <string name="doc_kk">Kartu Keluarga</string>
+    <string name="doc_surat_nikah">Surat Nikah</string>
+    <string name="doc_slip_gaji">Slip Gaji</string>
+    <string name="doc_rekening_koran">Rekening Koran</string>
+    <string name="doc_npwp">NPWP</string>
+    <string name="doc_spt">SPT</string>
+    
+    <!-- Property -->
+    <string name="property">Properti</string>
+    <string name="property_details">Detail Properti</string>
+    <string name="property_type">Tipe Properti</string>
+    <string name="property_price">Harga Properti</string>
+    <string name="property_location">Lokasi Properti</string>
+    <string name="available_units">Unit Tersedia</string>
+    <string name="unit_number">Nomor Unit</string>
+    <string name="block">Blok</string>
+    <string name="type">Tipe</string>
+    
+    <!-- Payment -->
+    <string name="payment">Pembayaran</string>
+    <string name="payment_details">Detail Pembayaran</string>
+    <string name="payment_amount">Jumlah Pembayaran</string>
+    <string name="payment_date">Tanggal Pembayaran</string>
+    <string name="payment_status">Status Pembayaran</string>
+    <string name="payment_pending">Pembayaran Pending</string>
+    <string name="payment_approved">Pembayaran Disetujui</string>
+    <string name="payment_rejected">Pembayaran Ditolak</string>
+    <string name="down_payment">Uang Muka (DP)</string>
+    <string name="installment">Cicilan</string>
+    
+    <!-- Marketing -->
+    <string name="leads">Prospek</string>
+    <string name="new_lead">Prospek Baru</string>
+    <string name="lead_details">Detail Prospek</string>
+    <string name="lead_source">Sumber Prospek</string>
+    <string name="campaign">Kampanye</string>
+    <string name="campaigns">Kampanye</string>
+    <string name="new_campaign">Kampanye Baru</string>
+    <string name="conversion_rate">Tingkat Konversi</string>
+    <string name="total_leads">Total Prospek</string>
+    
+    <!-- Legal -->
+    <string name="legal_review">Review Legal</string>
+    <string name="document_review">Review Dokumen</string>
+    <string name="legal_verification">Verifikasi Legal</string>
+    <string name="compliance_check">Pemeriksaan Kepatuhan</string>
+    <string name="legal_status">Status Legal</string>
+    <string name="verified">Terverifikasi</string>
+    <string name="not_verified">Belum Terverifikasi</string>
+    
+    <!-- Finance -->
+    <string name="finance">Keuangan</string>
+    <string name="financial_reports">Laporan Keuangan</string>
+    <string name="revenue">Pendapatan</string>
+    <string name="expenses">Pengeluaran</string>
+    <string name="profit">Laba</string>
+    <string name="budget">Anggaran</string>
+    <string name="quorum_voting">Voting Kuorum</string>
+    <string name="vote">Vote</string>
+    <string name="approve">Setujui</string>
+    <string name="reject">Tolak</string>
+    
+    <!-- BOD -->
+    <string name="board_of_directors">Dewan Direksi</string>
+    <string name="executive_summary">Ringkasan Eksekutif</string>
+    <string name="analytics">Analitik</string>
+    <string name="performance_metrics">Metrik Kinerja</string>
+    <string name="portfolio_value">Nilai Portofolio</string>
+    <string name="success_rate">Tingkat Keberhasilan</string>
+    <string name="customer_satisfaction">Kepuasan Pelanggan</string>
+    <string name="processing_time">Waktu Pemrosesan</string>
+    
+    <!-- Settings -->
+    <string name="settings">Pengaturan</string>
+    <string name="language_settings">Pengaturan Bahasa</string>
+    <string name="language">Bahasa</string>
+    <string name="indonesian">Bahasa Indonesia</string>
+    <string name="english">English</string>
+    <string name="theme_settings">Pengaturan Tema</string>
+    <string name="dark_mode">Mode Gelap</string>
+    <string name="light_mode">Mode Terang</string>
+    <string name="system_mode">Mode Sistem</string>
+    
+    <!-- Notifications -->
+    <string name="notifications">Notifikasi</string>
+    <string name="notification_settings">Pengaturan Notifikasi</string>
+    <string name="push_notifications">Notifikasi Push</string>
+    <string name="email_notifications">Notifikasi Email</string>
+    <string name="sms_notifications">Notifikasi SMS</string>
+    
+    <!-- Support -->
+    <string name="support">Dukungan</string>
+    <string name="customer_support">Dukungan Pelanggan</string>
+    <string name="help">Bantuan</string>
+    <string name="faq">FAQ</string>
+    <string name="contact_us">Hubungi Kami</string>
+    <string name="call_center">Call Center</string>
+    <string name="email_support">Email Dukungan</string>
+    <string name="whatsapp_support">WhatsApp Dukungan</string>
+    
+    <!-- Error Messages -->
+    <string name="error_network">Kesalahan Jaringan</string>
+    <string name="error_server">Kesalahan Server</string>
+    <string name="error_authentication">Kesalahan Autentikasi</string>
+    <string name="error_validation">Kesalahan Validasi</string>
+    <string name="error_permission">Izin Ditolak</string>
+    <string name="error_file_not_found">File Tidak Ditemukan</string>
+    <string name="error_upload_failed">Unggahan Gagal</string>
+    
+    <!-- Success Messages -->
+    <string name="success_saved">Berhasil Disimpan</string>
+    <string name="success_uploaded">Berhasil Diunggah</string>
+    <string name="success_deleted">Berhasil Dihapus</string>
+    <string name="success_updated">Berhasil Diperbarui</string>
+    <string name="success_created">Berhasil Dibuat</string>
+    <string name="success_sent">Berhasil Dikirim</string>
+    
+    <!-- Accessibility -->
+    <string name="cd_button">Tombol</string>
+    <string name="cd_text_field">Bidang Teks</string>
+    <string name="cd_card">Kartu</string>
+    <string name="cd_list">Daftar</string>
+    <string name="cd_image">Gambar</string>
+    <string name="cd_icon">Ikon</string>
+    <string name="cd_progress">Progress</string>
+    <string name="cd_loading">Memuat</string>
+    <string name="cd_error">Kesalahan</string>
+    <string name="cd_success">Berhasil</string>
+    <string name="cd_warning">Peringatan</string>
+    <string name="cd_info">Informasi</string>
+    
+    <!-- Content Descriptions -->
+    <string name="cd_menu_button">Tombol Menu</string>
+    <string name="cd_back_button">Tombol Kembali</string>
+    <string name="cd_close_button">Tombol Tutup</string>
+    <string name="cd_search_button">Tombol Cari</string>
+    <string name="cd_filter_button">Tombol Filter</string>
+    <string name="cd_refresh_button">Tombol Refresh</string>
+    <string name="cd_settings_button">Tombol Pengaturan</string>
+    <string name="cd_profile_button">Tombol Profil</string>
+    <string name="cd_notification_button">Tombol Notifikasi</string>
+    <string name="cd_home_button">Tombol Beranda</string>
+    
+    <!-- Date and Time -->
+    <string name="today">Hari Ini</string>
+    <string name="yesterday">Kemarin</string>
+    <string name="tomorrow">Besok</string>
+    <string name="this_week">Minggu Ini</string>
+    <string name="this_month">Bulan Ini</string>
+    <string name="this_year">Tahun Ini</string>
+    <string name="last_week">Minggu Lalu</string>
+    <string name="last_month">Bulan Lalu</string>
+    <string name="last_year">Tahun Lalu</string>
+    
+    <!-- Currency -->
+    <string name="currency_idr">Rp</string>
+    <string name="currency_usd">$</string>
+    <string name="amount">Jumlah</string>
+    <string name="total">Total</string>
+    <string name="subtotal">Subtotal</string>
+    <string name="tax">Pajak</string>
+    <string name="discount">Diskon</string>
+    
+    <!-- Status -->
+    <string name="active">Aktif</string>
+    <string name="inactive">Tidak Aktif</string>
+    <string name="pending">Pending</string>
+    <string name="completed">Selesai</string>
+    <string name="cancelled">Dibatalkan</string>
+    <string name="expired">Kadaluarsa</string>
+    <string name="suspended">Ditangguhkan</string>
+    
+    <!-- Priority -->
+    <string name="priority_high">Prioritas Tinggi</string>
+    <string name="priority_medium">Prioritas Sedang</string>
+    <string name="priority_low">Prioritas Rendah</string>
+    <string name="priority_urgent">Prioritas Mendesak</string>
+    
+    <!-- Actions -->
+    <string name="view">Lihat</string>
+    <string name="download">Unduh</string>
+    <string name="share">Bagikan</string>
+    <string name="copy">Salin</string>
+    <string name="move">Pindah</string>
+    <string name="rename">Ganti Nama</string>
+    <string name="duplicate">Duplikat</string>
+    <string name="archive">Arsip</string>
+    <string name="restore">Pulihkan</string>
+    
+    <!-- Filters -->
+    <string name="filter_all">Semua</string>
+    <string name="filter_active">Aktif</string>
+    <string name="filter_completed">Selesai</string>
+    <string name="filter_pending">Pending</string>
+    <string name="filter_cancelled">Dibatalkan</string>
+    <string name="filter_this_week">Minggu Ini</string>
+    <string name="filter_this_month">Bulan Ini</string>
+    <string name="filter_this_year">Tahun Ini</string>
+    
+    <!-- Sort -->
+    <string name="sort">Urutkan</string>
+    <string name="sort_by_name">Urutkan berdasarkan Nama</string>
+    <string name="sort_by_date">Urutkan berdasarkan Tanggal</string>
+    <string name="sort_by_status">Urutkan berdasarkan Status</string>
+    <string name="sort_by_priority">Urutkan berdasarkan Prioritas</string>
+    <string name="sort_ascending">Urutkan Naik</string>
+    <string name="sort_descending">Urutkan Turun</string>
+    
+    <!-- Export -->
+    <string name="export">Ekspor</string>
+    <string name="export_to_excel">Ekspor ke Excel</string>
+    <string name="export_to_pdf">Ekspor ke PDF</string>
+    <string name="export_to_csv">Ekspor ke CSV</string>
+    <string name="export_success">Ekspor Berhasil</string>
+    <string name="export_failed">Ekspor Gagal</string>
+    
+    <!-- Import -->
+    <string name="import">Impor</string>
+    <string name="import_from_excel">Impor dari Excel</string>
+    <string name="import_from_csv">Impor dari CSV</string>
+    <string name="import_success">Impor Berhasil</string>
+    <string name="import_failed">Impor Gagal</string>
+    
+    <!-- Validation -->
+    <string name="validation_required">Field ini wajib diisi</string>
+    <string name="validation_email">Email tidak valid</string>
+    <string name="validation_phone">Nomor telepon tidak valid</string>
+    <string name="validation_nik">NIK tidak valid</string>
+    <string name="validation_password">Kata sandi minimal 8 karakter</string>
+    <string name="validation_password_match">Kata sandi tidak cocok</string>
+    <string name="validation_min_length">Minimal %d karakter</string>
+    <string name="validation_max_length">Maksimal %d karakter</string>
+    
+    <!-- Permissions -->
+    <string name="permission_camera">Izin Kamera Diperlukan</string>
+    <string name="permission_storage">Izin Penyimpanan Diperlukan</string>
+    <string name="permission_location">Izin Lokasi Diperlukan</string>
+    <string name="permission_contacts">Izin Kontak Diperlukan</string>
+    <string name="permission_microphone">Izin Mikrofon Diperlukan</string>
+    <string name="permission_phone">Izin Telepon Diperlukan</string>
+    
+    <!-- About -->
+    <string name="about">Tentang</string>
+    <string name="app_version">Versi Aplikasi</string>
+    <string name="developer">Pengembang</string>
+    <string name="contact">Kontak</string>
+    <string name="website">Website</string>
+    <string name="privacy_policy">Kebijakan Privasi</string>
+    <string name="terms_of_service">Syarat dan Ketentuan</string>
+    
+    <!-- Other -->
+    <string name="no_data">Tidak Ada Data</string>
+    <string name="no_internet">Tidak Ada Koneksi Internet</string>
+    <string name="server_error">Kesalahan Server</string>
+    <string name="unknown_error">Kesalahan Tidak Diketahui</string>
+    <string name="please_wait">Mohon Tunggu</string>
+    <string name="processing">Memproses</string>
+    <string name="completed">Selesai</string>
+    <string name="failed">Gagal</string>
+    <string name="success">Berhasil</string>
+    <string name="warning">Peringatan</string>
+    <string name="info">Informasi</string>
+</resources>
