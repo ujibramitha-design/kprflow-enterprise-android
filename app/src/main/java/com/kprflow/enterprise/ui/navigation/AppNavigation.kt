@@ -16,6 +16,7 @@ import androidx.navigation.navArgument
 import com.kprflow.enterprise.data.model.UserRole
 import com.kprflow.enterprise.ui.screens.SplashScreen
 import com.kprflow.enterprise.ui.screens.LoginScreen
+import com.kprflow.enterprise.ui.screens.CrashTestScreen
 import com.kprflow.enterprise.ui.viewmodel.AuthViewModel
 import com.kprflow.enterprise.ui.viewmodel.SplashViewModel
 
@@ -308,5 +309,17 @@ private fun NavGraphBuilder.bodNavigationGraph(navController: NavController) {
         composable(Screen.BODReports.route) {
             // TODO: Implement BODReports
         }
+        
+        // Crash Test Screen (for testing Firebase Crashlytics)
+        composable(CRASH_TEST_ROUTE) {
+            CrashTestScreen()
+        }
+    }
+}
+
+// Standalone Crash Test Screen (accessible from any role)
+private fun NavGraphBuilder.crashTestScreen() {
+    composable(CRASH_TEST_ROUTE) {
+        CrashTestScreen()
     }
 }
